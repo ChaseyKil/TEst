@@ -1,0 +1,177 @@
+/**German Shepherd Institute**/
+
+/**Body**/
+body{
+    background: white;
+    font-size: 40px;
+    text-align: center;
+}
+/**header**/
+.header {width: 100%;
+height: 100px;}
+
+.logo {padding: 0px;
+    width: 7%;
+float:left;
+}
+
+.title {font-family:'Monaco';
+    font-size: 40px;
+    width:93%;
+    align-content:center;
+    height: 80px;
+}
+
+.subject {font-family:'Monaco';
+    font-size: 20px;
+    align-content:center;
+    height: 50px;
+}
+
+/**Nav Bar **/ /**I used this website to learn how to make a list horizontal: https://www.w3schools.com/csS/css_navbar_horizontal.asp **/
+ul.navigation{
+    list-style-type: none;
+    background-color: #EADFD2;
+    height: 50px;
+}
+
+ul.navigation li{
+    display: inline-block;
+    padding: 0 0.5rem;
+    min-width: 15rem;
+    text-align: center;
+    font-family: 'Monaco';
+    color:black;
+    font-size: 30px;
+}
+
+ul.navigation li:not(:last-child){ border-right: 1px solid black;
+}
+
+
+
+/**Main**/
+main {
+    background: white;
+  }
+
+  main img {
+    background-color: #EADFD2;
+    border: 1px solid;
+    padding: 6px;
+    margin: 2px;
+    align-content: center;
+  }
+
+
+.paragraph {
+    font-size: 20px;
+    background-color: #EADFD2;
+    padding: 6px;
+}
+
+.cite {font-size: 15px;}
+
+table {font-size: 20px;
+    background-color: #EADFD2;
+    padding: 6px;
+    margin-right:auto;
+margin-left:auto;}
+
+ul{
+    font-size: 20px;
+    background-color: #EADFD2;
+    padding: 6px;
+}
+
+
+
+.subtitle {font-size: 20px;
+    font-family:'Papyrus';
+}
+
+/**History Page**/
+
+.history {
+    display: inline-block;
+    width: 100%;
+}
+
+.left {width: 50%;
+float:left;
+}
+
+.right {width:50%;
+    float:right;
+}
+
+
+/**Characteristics Page**/
+.characteristics {
+    display: inline-block;
+    width:65%;
+    margin:30px auto;
+}
+
+ .image {float:right; width:50%; height:150px;
+    padding-bottom: 100px;
+ }
+
+.health {font-size: 20px;
+    background-color: #EADFD2;
+    padding-bottom: 80px;
+    float: left;
+    width:40%; height:100px;
+}
+
+.measures {font-size: 20px;
+    background-color: #EADFD2;
+    padding-top: 50px;
+    float: left;
+    width:98%; height:100px;
+}
+
+/**Training Page**/
+
+.training{
+    display: inline-block;
+    width:100%;
+}
+.uncomfortable { width:50%;
+float: left;}
+
+.aggressive { width:50%;
+float:right;}
+
+.training2 {
+    display: inline-block;
+    width:100%;
+}
+
+.tricks { width:50%;
+    float: left;
+padding-top:8px;}
+    
+    .tips { width:50%;
+    float:right;
+padding-top:8px;}
+
+.table {
+    padding:20px;
+}
+
+
+/** Submission Page**/
+#form {font-size: 20px;
+    background-color: #EADFD2;
+    padding: 6px;
+}
+
+/**Footer**/
+footer {
+font-family:'Times New Roman';
+    font-size: 15px;
+    align-content:center;
+    height: 18px;
+    padding-top: 20px;
+}
